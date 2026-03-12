@@ -1,0 +1,82 @@
+name: 🧪 CI Tests
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install dependencies
+        run: |
+          echo "📦 Installing Python dependencies..."
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov pytest-asyncio
+
+      - name: 🧪 Run tests
+        run: |
+          echo "🧪 Running test suite..."
+          pytest tests/ -v --cov=src --cov-report=term-missing
+
+      - name: ✅ Tests passed
+        if: success()
+        run: echo "✅ All tests passed! 🎉"
+
+      - name: ❌ Tests failed
+        if: failure()
+        run: |
+          echo "❌ Tests failed! Check logs above."
+          exit 1
+
+  lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install linting tools
+        run: |
+          pip install black flake8 isort mypy
+
+      - name: 🎨 Check code formatting (black)
+        run: |
+          echo "🎨 Checking code formatting..."
+          black --check src/ tests/
+
+      - name: 📋 Check imports (isort)
+        run: |
+          echo "📋 Checking import sorting..."
+          isort --check-only src/ tests/
+
+      - name: 🔍 Lint code (flake8)
+        run: |
+          echo "🔍 Linting code..."
+          flake8 src/ tests/ --max-line-length=120 --extend-ignore=E203,W503
+
+      - name: ✅ Linting passed
+        if: success()
+        run: echo "✅ Code quality checks passed! 🎉"

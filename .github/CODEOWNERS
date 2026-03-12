@@ -1,0 +1,21 @@
+# Code owners for Terraform Healer
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owners - will be requested for review on all PRs
+* @YOUR_GITHUB_USERNAME
+
+# Core source code
+/src/ @YOUR_GITHUB_USERNAME
+
+# Kubernetes manifests
+/k8s/ @YOUR_GITHUB_USERNAME
+
+# CI/CD workflows
+/.github/workflows/ @YOUR_GITHUB_USERNAME
+
+# Documentation - can have different reviewers
+/docs/ @YOUR_GITHUB_USERNAME
+
+# Security sensitive files
+/SECURITY.md @YOUR_GITHUB_USERNAME
+/Dockerfile @YOUR_GITHUB_USERNAME

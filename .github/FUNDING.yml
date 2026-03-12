@@ -1,0 +1,14 @@
+# GitHub Funding Configuration
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+# Enable this file if you want to add funding/sponsorship options
+# Uncomment and update with your actual accounts
+
+# github: [YOUR_GITHUB_USERNAME]
+# open_collective: YOUR_COLLECTIVE_NAME
+# ko_fi: YOUR_KOFI_USERNAME
+# tidelift: npm/PACKAGE_NAME
+# community_bridge: YOUR_PROJECT_NAME
+# liberapay: YOUR_LIBERAPAY_USERNAME
+# issuehunt: YOUR_ISSUEHUNT_USERNAME
+# custom: ["https://your-donation-link.com", "https://your-website.com/donate"]
