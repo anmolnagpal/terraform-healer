@@ -269,7 +269,7 @@ DRY_RUN=true
 
 ### Recommended Bot Profile:
 
-**Username:** `terraform-remediation-bot` or `YOUR_USERNAME-terraform-bot`
+**Username:** `terraform-remediation-bot` or `anmolnagpal-terraform-bot`
 
 **Profile:**
 - **Name:** "🤖 Terraform Auto-Remediation Bot"
@@ -278,7 +278,7 @@ DRY_RUN=true
   🤖 Automated Terraform failure detection and remediation
   🔧 Fixes syntax, validation, and format issues
   🛡️ 8-layer safety validation
-  📚 Docs: https://github.com/YOUR_USERNAME/terraform-healer
+  📚 Docs: https://github.com/anmolnagpal/terraform-healer
   ```
 - **Website:** Link to your documentation
 - **Avatar:** Robot icon or your company logo with bot indicator
@@ -305,12 +305,12 @@ I'm a bot that automatically fixes Terraform workflow failures!
 - 👥 Requires human approval for high-risk changes
 
 ## Repositories I Monitor
-- YOUR_USERNAME/terraform-aws
-- YOUR_USERNAME/terraform-gcp
-- YOUR_USERNAME/terraform-azure
+- anmolnagpal/terraform-aws
+- anmolnagpal/terraform-gcp
+- anmolnagpal/terraform-azure
 
 ---
-🤖 Powered by [Terraform Auto-Remediation System](https://github.com/YOUR_USERNAME/terraform-healer)
+🤖 Powered by [Terraform Auto-Remediation System](https://github.com/anmolnagpal/terraform-healer)
 ```
 
 ---

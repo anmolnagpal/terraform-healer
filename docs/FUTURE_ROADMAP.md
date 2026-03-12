@@ -491,7 +491,7 @@ We'll track feature requests via GitHub Discussions:
 4. 🧪 Test generation (43 votes)
 5. 📝 Documentation updates (38 votes)
 
-**Vote on features:** [GitHub Discussions](https://github.com/YOUR_USERNAME/terraform-healer/discussions)
+**Vote on features:** [GitHub Discussions](https://github.com/anmolnagpal/terraform-healer/discussions)
 
 ---
 

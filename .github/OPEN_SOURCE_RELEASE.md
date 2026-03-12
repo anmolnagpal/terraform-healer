@@ -58,7 +58,7 @@ git commit -m "feat: initial release of Terraform Healer 🏥"
 
 # Create GitHub repository as "terraform-healer"
 # Then push:
-git remote add origin https://github.com/YOUR_USERNAME/terraform-healer.git
+git remote add origin https://github.com/anmolnagpal/terraform-healer.git
 git branch -M main
 git push -u origin main
 ```
@@ -89,7 +89,7 @@ For `main` branch:
 ### 5. Community Standards
 
 Check GitHub's community standards:
-- Go to: `https://github.com/YOUR_USERNAME/tf-ai/community`
+- Go to: `https://github.com/anmolnagpal/tf-ai/community`
 - You should see ✅ for:
   - Description
   - README
@@ -112,7 +112,7 @@ Then create a GitHub Release:
 - Tag: `v1.0.0`
 - Title: `v1.0.0 - Terraform Healer Initial Release 🏥`
 - Description: Copy from CHANGELOG.md
-- Attach Docker image: `ghcr.io/YOUR_USERNAME/terraform-healer:v1.0.0`
+- Attach Docker image: `ghcr.io/anmolnagpal/terraform-healer:v1.0.0`
 
 ### 7. Promote Your Project
 
@@ -186,7 +186,7 @@ Attract contributors by:
 ## 🚨 Important Notes
 
 - **Remove sensitive data**: Ensure `.env` is gitignored
-- **Update placeholders**: Replace `YOUR_USERNAME` in all docs
+- **Update placeholders**: Replace `anmolnagpal` in all docs
 - **Test everything**: Clone repo fresh and test setup instructions
 - **Monitor security**: Enable Dependabot alerts, review PRs carefully
 - **Stay active**: Respond to issues, maintain the project

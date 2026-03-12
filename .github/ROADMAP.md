@@ -46,4 +46,4 @@ Nothing currently in development.
 
 ## 💡 Suggest a Feature
 
-Have an idea? [Open a feature request](https://github.com/YOUR_USERNAME/terraform-healer/issues/new?template=feature_request.md)!
+Have an idea? [Open a feature request](https://github.com/anmolnagpal/terraform-healer/issues/new?template=feature_request.md)!

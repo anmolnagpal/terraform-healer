@@ -75,7 +75,7 @@ Documentation improvements are always welcome!
 
 ```bash
 # 1. Fork and clone the repo
-git clone https://github.com/YOUR_USERNAME/terraform-healer.git
+git clone https://github.com/anmolnagpal/terraform-healer.git
 cd terraform-healer
 
 # 2. Create virtual environment
@@ -313,8 +313,8 @@ New to the project? Look for issues labeled `good-first-issue`:
 
 Need help?
 
-- 💬 **[GitHub Discussions](https://github.com/YOUR_USERNAME/terraform-healer/discussions)** - Ask questions, share ideas
-- 🐛 **[GitHub Issues](https://github.com/YOUR_USERNAME/terraform-healer/issues)** - Report bugs, request features
+- 💬 **[GitHub Discussions](https://github.com/anmolnagpal/terraform-healer/discussions)** - Ask questions, share ideas
+- 🐛 **[GitHub Issues](https://github.com/anmolnagpal/terraform-healer/issues)** - Report bugs, request features
 - 📧 **Email maintainers** - For sensitive issues
 
 ## 🙏 Recognition

@@ -178,7 +178,7 @@ We welcome contributions! Please see:
 - [Security Policy](SECURITY.md) - Reporting vulnerabilities
 - [Development Setup](CONTRIBUTING.md#development-setup) - Get started locally
 
-Looking for your first contribution? Check out issues labeled [`good-first-issue`](https://github.com/YOUR_USERNAME/terraform-healer/labels/good-first-issue)! 🎓
+Looking for your first contribution? Check out issues labeled [`good-first-issue`](https://github.com/anmolnagpal/terraform-healer/labels/good-first-issue)! 🎓
 
 ## 📜 License
 
@@ -197,9 +197,9 @@ If this project helped you, please consider giving it a ⭐ on GitHub!
 
 ## 📞 Support
 
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/YOUR_USERNAME/terraform-healer/issues/new?template=bug_report.md)
-- ✨ **Feature Requests**: [Open an issue](https://github.com/YOUR_USERNAME/terraform-healer/issues/new?template=feature_request.md)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/terraform-healer/discussions)
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/anmolnagpal/terraform-healer/issues/new?template=bug_report.md)
+- ✨ **Feature Requests**: [Open an issue](https://github.com/anmolnagpal/terraform-healer/issues/new?template=feature_request.md)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/anmolnagpal/terraform-healer/discussions)
 - 📚 **Documentation**: [docs/](./docs/)
 
 ---

@@ -86,4 +86,4 @@ We use the following categories in this changelog:
 
 - [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
-- [GitHub Releases](https://github.com/YOUR_USERNAME/terraform-healer/releases)
+- [GitHub Releases](https://github.com/anmolnagpal/terraform-healer/releases)
