@@ -22,7 +22,7 @@ python-hcl2==4.3.2
 python-dotenv==1.2.2
 tenacity==8.2.3
 structlog==24.1.0
-python-json-logger==2.0.7
+python-json-logger==4.0.0
 
 # Security
 cryptography==46.0.5
