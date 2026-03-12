@@ -1,4 +1,4 @@
-FROM python:3.14-slim
+FROM python:3.11-slim
 
 WORKDIR /app
 
@@ -15,10 +15,10 @@ RUN curl -fsSL https://releases.hashicorp.com/terraform/1.7.0/terraform_1.7.0_li
     && mv terraform /usr/local/bin/ \
     && rm terraform.zip
 
-# Install TFLint (optional)
+# Install TFLint
 RUN curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
 
-# Install tfsec (optional)
+# Install tfsec
 RUN curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
 
 # Copy requirements and install Python dependencies
@@ -27,7 +27,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY src/ ./src/
-COPY config/ ./config/
 
 # Create non-root user
 RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
