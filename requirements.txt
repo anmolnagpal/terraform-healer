@@ -19,7 +19,7 @@ slack-sdk==3.26.2
 python-hcl2==4.3.2
 
 # Utilities
-python-dotenv==1.0.0
+python-dotenv==1.2.2
 tenacity==8.2.3
 structlog==24.1.0
 python-json-logger==2.0.7
